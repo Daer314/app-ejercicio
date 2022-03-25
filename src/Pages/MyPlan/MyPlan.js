@@ -1,12 +1,13 @@
 import React from 'react'
-import SelectionCard from '../Components/SelectionCard'
+import SelectionCard from '../../Components/SelectionCard'
+import { PlanContainer } from './MyPlan-Styles'
 
 function MyPlan() {
   return (
-    <div>
+    <PlanContainer>
       <SelectionCard SelectionCardTitle={'Create new Plan'}/>
       <SelectionCard SelectionCardTitle={'Saved Plans'}/>
-    </div>
+    </PlanContainer>
   )
 }
 

@@ -1,12 +1,11 @@
 import React from 'react'
-import img from './ejercicio.jpeg'
 import { CardWrapper,
         CardIcon,
         CardTitle,
         CardImage
 } from './Card-Styles'
 
-function Card({title, icon}) {
+function Card({title, icon, img}) {
   return (
     <CardWrapper>
       <CardImage src={img}/>

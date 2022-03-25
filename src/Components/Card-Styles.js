@@ -19,7 +19,7 @@ export const CardWrapper = styled.div`
     text-align: center;
     border: 1px solid #621708;
     border-radius: 15px;
-    box-shadow: 0 0 20px #F6AA1C;
+    //box-shadow: 0 0 20px #F6AA1C;
     position: relative;
 `
 export const CardImage = styled.img`

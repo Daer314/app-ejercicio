@@ -1,5 +1,7 @@
 import React from 'react'
-import { SelectionCardContainer, SelectionCardWrapper } from './SelectionCard-Styles'
+import { SelectionCardContainer, 
+  SelectionCardWrapper 
+} from './SelectionCard-Styles'
 
 function SelectionCard({SelectionCardTitle}) {
   return (

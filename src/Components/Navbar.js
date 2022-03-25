@@ -27,10 +27,10 @@ function Navbar() {
             <Name to='/'>AppName</Name>
             <ListWrapper>
                 <ListElement>
-                    <ListItem to='/'>Log in</ListItem>
+                    <ListItem to='/log-in'>Log in</ListItem>
                 </ListElement>
                 <ListElement>
-                    <ListItem to='/'>Sign up</ListItem>
+                    <ListItem to='/sign-up'>Sign up</ListItem>
                 </ListElement>
             </ListWrapper>
             <MenuWrapper navIcon={navIcon}>

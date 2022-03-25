@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 //----------------- Navbar -----------------//
 
 export const NavContainer = styled.div`
-    position: sticky;
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 50px;
     display: flex;
@@ -20,12 +21,18 @@ export const MenuIcon = styled.div`
 `
 
 export const NavIconBurguer = styled(FaBars)`
+    cursor: pointer;
     color: #F6AA1C;
     font-size: 25px;
     background-color: transparent;
+
+    @media screen and (max-width: 960px){
+        font-size: 20px;
+    }
 `
 
 export const NavIconClose = styled(FaTimes)`
+    cursor: pointer;
     color: #F6AA1C;
     font-size: 25px;
     background-color: transparent;
@@ -51,6 +58,10 @@ export const ListItem = styled(Link)`
     text-decoration: none;
     font-size: 1.2rem;
     background-color: transparent;
+
+    @media screen and (max-width: 960px){
+        font-size: 1rem;
+    }
 `
 
 export const Name = styled(Link)`
@@ -58,6 +69,11 @@ export const Name = styled(Link)`
     text-decoration: none;
     font-size: 1.2rem;
     margin-left: 25px;
+
+    @media screen and (max-width: 960px) {
+        font-size: 1rem;
+        margin-left: 15px;
+    }
 `
 
 //----------------- Burguer Menu -------------------//
