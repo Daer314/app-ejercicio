@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ejercicio-app/static/css/main.c7ec3132.css",
+    "main.js": "/ejercicio-app/static/js/main.8f2ee0cd.js",
+    "static/media/ejercicio.jpeg": "/ejercicio-app/static/media/ejercicio.beef774d77d86e7b1af6.jpeg",
+    "index.html": "/ejercicio-app/index.html",
+    "main.c7ec3132.css.map": "/ejercicio-app/static/css/main.c7ec3132.css.map",
+    "main.8f2ee0cd.js.map": "/ejercicio-app/static/js/main.8f2ee0cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ec3132.css",
+    "static/js/main.8f2ee0cd.js"
+  ]
+}
