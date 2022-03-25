@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
+import Navbar from './Components/Navbar'
+import Home from "./Pages/Home";
+import MyPlan from './Pages/MyPlan'
+import Workouts from './Pages/Workouts'
+import BulkWeek from './Pages/BulkWeek';
+import ShrededWeek from './Pages/ShrededWeek'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path='/my-plan' element={<MyPlan />} />
+        <Route path='/workouts' element={<Workouts />} />
+        <Route path='/bulk-week' element={<BulkWeek />} />
+        <Route path='/shreded-week' element={<ShrededWeek />} />
+        <Route exact path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }

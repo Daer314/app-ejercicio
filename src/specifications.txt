@@ -1,0 +1,24 @@
+IDEAS
+1. Progreso inteligente
+2. PLaylist para hacer ejercicio
+3. Plan de alimentacion
+4. Guardar rutinas (Mis ejercicios)
+5. Guardar ejercicios (Mis rutinas)
+6. Poder ingresar peso
+7. Poder ingresar repeticiones
+8. poder ingresar descanso entre reps y series
+9. Vender planes de entrenamiento de gente ya experimentada
+10. Vender proteinas e implementos para el gym
+11. Rutinas con y sin peso
+12. Rutinas en casa
+13. Foco, aumento, salud, o marcarse
+14. Rutinas sugeridas para hombres y mujeres
+15. Link a videos en youtube
+16. Mi entrenamiento semanal guardado
+
+- Colors:
+#220901 --> Brown
+#621708
+#621708 --> Red
+#BC3908
+#F6AA1C --> Yellow
