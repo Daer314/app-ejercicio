@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/app-ejercicio/static/css/main.c7ec3132.css",
-    "main.js": "/app-ejercicio/static/js/main.a95a8ec5.js",
+    "main.js": "/app-ejercicio/static/js/main.3359a132.js",
     "static/media/img4.png": "/app-ejercicio/static/media/img4.3413270a7119c26df04d.png",
     "static/media/img3.png": "/app-ejercicio/static/media/img3.76724092613070fec53e.png",
     "static/media/img1.jpeg": "/app-ejercicio/static/media/img1.d494a60b7cc7733cf1d7.jpeg",
     "static/media/img2.jpeg": "/app-ejercicio/static/media/img2.a3eb76e621834acb60d4.jpeg",
+    "static/media/abs.jpeg": "/app-ejercicio/static/media/abs.f3d77fbe4ffd79702b68.jpeg",
     "index.html": "/app-ejercicio/index.html",
     "main.c7ec3132.css.map": "/app-ejercicio/static/css/main.c7ec3132.css.map",
-    "main.a95a8ec5.js.map": "/app-ejercicio/static/js/main.a95a8ec5.js.map"
+    "main.3359a132.js.map": "/app-ejercicio/static/js/main.3359a132.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.a95a8ec5.js"
+    "static/js/main.3359a132.js"
   ]
 }
