@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app-ejercicio/static/css/main.c7ec3132.css",
-    "main.js": "/app-ejercicio/static/js/main.b3b8c276.js",
+    "main.js": "/app-ejercicio/static/js/main.3cd82d5d.js",
     "static/media/triceps.png": "/app-ejercicio/static/media/triceps.06c7ef1b3b6573363e87.png",
     "static/media/img4.png": "/app-ejercicio/static/media/img4.3413270a7119c26df04d.png",
     "static/media/img3.png": "/app-ejercicio/static/media/img3.76724092613070fec53e.png",
@@ -15,10 +15,10 @@
     "static/media/arms.jpeg": "/app-ejercicio/static/media/arms.c1eca5c7a3d5f4f51925.jpeg",
     "index.html": "/app-ejercicio/index.html",
     "main.c7ec3132.css.map": "/app-ejercicio/static/css/main.c7ec3132.css.map",
-    "main.b3b8c276.js.map": "/app-ejercicio/static/js/main.b3b8c276.js.map"
+    "main.3cd82d5d.js.map": "/app-ejercicio/static/js/main.3cd82d5d.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.b3b8c276.js"
+    "static/js/main.3cd82d5d.js"
   ]
 }
