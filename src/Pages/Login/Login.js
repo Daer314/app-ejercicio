@@ -1,4 +1,5 @@
 import React from 'react'
+import SubmitButton from '../../Components/SubmitButton.js'
 import { LoginContainer,
   FormContainer,
   InputContainer,
@@ -11,13 +12,14 @@ function Login() {
     <LoginContainer>
       <FormContainer>
         <InputContainer>
-          <FormInput placeholder='Enter Email'/>
+          <FormInput placeholder='Email'/>
           <FormLabel>Email</FormLabel>
         </InputContainer>        
         <InputContainer>
-          <FormInput placeholder='Enter password'/>
+          <FormInput placeholder='Password'/>
           <FormLabel>Password</FormLabel>
         </InputContainer>
+        <SubmitButton />
       </FormContainer>    
     </LoginContainer>
   )

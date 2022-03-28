@@ -2,11 +2,11 @@ import { Routes, Route } from "react-router-dom"
 import Navbar from './Components/Navbar'
 import Home from "./Pages/Home/Home"
 import MyPlan from './Pages/MyPlan/MyPlan'
-import Workouts from './Pages/Workouts'
+import Workouts from './Pages/Workouts/Workouts'
 import BulkWeek from './Pages/BulkWeek'
 import ShrededWeek from './Pages/ShrededWeek'
 import Login from "./Pages/Login/Login"
-import Signup from "./Pages/Signup"
+import Signup from "./Pages/Signup/Signup"
 import './App.css';
 
 function App() {
