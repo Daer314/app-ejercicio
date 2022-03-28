@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/app-ejercicio/static/css/main.c7ec3132.css",
-    "main.js": "/app-ejercicio/static/js/main.3359a132.js",
+    "main.js": "/app-ejercicio/static/js/main.b3b8c276.js",
+    "static/media/triceps.png": "/app-ejercicio/static/media/triceps.06c7ef1b3b6573363e87.png",
     "static/media/img4.png": "/app-ejercicio/static/media/img4.3413270a7119c26df04d.png",
     "static/media/img3.png": "/app-ejercicio/static/media/img3.76724092613070fec53e.png",
+    "static/media/legs.jpeg": "/app-ejercicio/static/media/legs.6da6caa6108e4d34300a.jpeg",
     "static/media/img1.jpeg": "/app-ejercicio/static/media/img1.d494a60b7cc7733cf1d7.jpeg",
+    "static/media/chest.jpeg": "/app-ejercicio/static/media/chest.e9569b5781624225c902.jpeg",
     "static/media/img2.jpeg": "/app-ejercicio/static/media/img2.a3eb76e621834acb60d4.jpeg",
+    "static/media/back.jpeg": "/app-ejercicio/static/media/back.6d6281a19ae859db5d78.jpeg",
     "static/media/abs.jpeg": "/app-ejercicio/static/media/abs.f3d77fbe4ffd79702b68.jpeg",
+    "static/media/shoulders.jpeg": "/app-ejercicio/static/media/shoulders.17207202474c7f78a4ea.jpeg",
+    "static/media/arms.jpeg": "/app-ejercicio/static/media/arms.c1eca5c7a3d5f4f51925.jpeg",
     "index.html": "/app-ejercicio/index.html",
     "main.c7ec3132.css.map": "/app-ejercicio/static/css/main.c7ec3132.css.map",
-    "main.3359a132.js.map": "/app-ejercicio/static/js/main.3359a132.js.map"
+    "main.b3b8c276.js.map": "/app-ejercicio/static/js/main.b3b8c276.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.3359a132.js"
+    "static/js/main.b3b8c276.js"
   ]
 }
