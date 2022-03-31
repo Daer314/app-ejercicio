@@ -7,6 +7,7 @@ import BulkWeek from './Pages/BulkWeek'
 import ShrededWeek from './Pages/ShrededWeek'
 import Login from "./Pages/Login/Login"
 import Signup from "./Pages/Signup/Signup"
+import Wednesday from "./Pages/WeekPlan/Wednesday"
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/workouts' element={<Workouts />} />
         <Route path='/bulk-week' element={<BulkWeek />} />
         <Route path='/shreded-week' element={<ShrededWeek />} />
+        <Route path='/wednesday' element={<Wednesday />} />
       </Routes>
     </div>
   );

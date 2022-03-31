@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const PlanContainer = styled.div`
@@ -5,5 +6,9 @@ export const PlanContainer = styled.div`
 `
 
 export const MyPlanning = styled.div`
+    text-align: center;
+`
 
+export const DayLink = styled(Link)`
+    text-decoration: none;
 `

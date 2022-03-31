@@ -2,7 +2,8 @@ import React from 'react'
 import SelectionCard from '../../Components/SelectionCard'
 import Day from '../../Components/Day/Day'
 import { PlanContainer,
-  MyPlanning
+  MyPlanning,
+  DayLink
 } from './MyPlan-Styles'
 import Card from '../../Components/Card'
 import img from '../../Images/img1.jpeg'
@@ -15,9 +16,29 @@ function MyPlan() {
       <SelectionCard SelectionCardTitle={'Saved Plan'}/>
       <MyPlanning>
         <Day title='Monday'/>
-        <Card title='Chest + Triceps' icon={<FaDumbbell/>} img={img} />
+          <DayLink to='/monday'>
+            <Card title='Chest + Triceps' icon={<FaDumbbell/>} img={img} />
+          </DayLink>
         <Day title='Tuesday'/>
-        <Card title='Back + Biceps' icon={<FaDumbbell/>} img={img} />
+          <DayLink to='/monday'>
+            <Card title='Back + Biceps' icon={<FaDumbbell/>} img={img} />
+          </DayLink>
+        <Day title='Wednesday'/>
+          <DayLink to='/wednesday'>
+            <Card title='Legs' icon={<FaDumbbell/>} img={img} />
+          </DayLink>
+        <Day title='Thursday'/>
+          <DayLink to='/'>
+            <Card title='Chest + Triceps' icon={<FaDumbbell/>} img={img} />
+          </DayLink>
+        <Day title='Friday'/>
+          <DayLink to='/'>
+            <Card title='Back + Biceps' icon={<FaDumbbell/>} img={img} />
+          </DayLink>
+        <Day title='Saturday'/>
+          <DayLink to='/'>
+            <Card title='Legs' icon={<FaDumbbell/>} img={img} />
+          </DayLink>
       </MyPlanning>
     </PlanContainer>
   )
